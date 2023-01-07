@@ -1,0 +1,21 @@
+/* Feel free to modify if you'd like a better display layout! */
+form {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.error-msg {
+  color: red;
+}
